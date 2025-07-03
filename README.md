@@ -33,42 +33,42 @@ CAPTCHAs are used to distinguish humans from bots. This project solves **simple 
 
 ##  How the Model Works
 ### Dataset Generation
-Synthetic CAPTCHA characters (A–Z, 0–9) generated using the captcha library and saved in class-wise folders.
+- Synthetic CAPTCHA characters (A–Z, 0–9) generated using the captcha library and saved in class-wise folders.
 
 ### Preprocessing Pipeline
 
-Convert to grayscale
+- Convert to grayscale
 
-Resize to (60x60)
+- Resize to (60x60)
 
-Normalize pixel values
+- Normalize pixel values
 
-Add channel dimension (60,60,1)
+- Add channel dimension (60,60,1)
 
 ### CNN Architecture
 
-Multiple Conv2D layers with ReLU and BatchNormalization
+- Multiple Conv2D layers with ReLU and BatchNormalization
 
-MaxPooling2D for spatial reduction
+- MaxPooling2D for spatial reduction
 
-Dropout for regularization
+- Dropout for regularization
 
-Final Dense layer with softmax for classification (36 classes)
+- Final Dense layer with softmax for classification (36 classes)
 
 ### Training
 
-Optimizer: Adam
+- Optimizer: Adam
 
-Loss: Categorical Crossentropy
+- Loss: Categorical Crossentropy
 
-EarlyStopping used to prevent overfitting
+- EarlyStopping used to prevent overfitting
 
-Best Epoch performance: Epoch 9
+- Best Epoch performance: Epoch 9
 
 ✔️ Train Accuracy: 84.89%  
 ✔️ Train Loss:     0.4061  
 ✔️ Val Accuracy:   94.58%  
 ✔️ Val Loss:       0.1601  
 
-Achieved 94.58% test accuracy
+- Achieved 94.58% test accuracy
 
