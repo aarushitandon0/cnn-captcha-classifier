@@ -2,13 +2,11 @@
 
 A deep learning project that builds a **Convolutional Neural Network (CNN)** to accurately classify **single-character CAPTCHA images**. It includes everything from dataset generation to training, evaluation, and prediction — built using TensorFlow and Keras.
 
----
 
 ##  Problem Statement
 
 CAPTCHAs are used to distinguish humans from bots. This project solves **simple character-level CAPTCHAs** by training a CNN model from scratch on synthetically generated data. It learns to recognize **uppercase English letters and digits (A-Z, 0-9)** from distorted images.
 
----
 
 ## Features
 
@@ -19,6 +17,4 @@ CAPTCHAs are used to distinguish humans from bots. This project solves **simple 
 - **Evaluation** via accuracy, confusion matrix, classification report  
 - **Misclassification visualization**  
 - Predict on custom images
-
----
 
