@@ -18,3 +18,12 @@ CAPTCHAs are used to distinguish humans from bots. This project solves **simple 
 - **Misclassification visualization**  
 - Predict on custom images
 
+## Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange?logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-Deep_Learning-red?logo=keras)
+![OpenCV](https://img.shields.io/badge/OpenCV-Image_Processing-green?logo=opencv)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific_Computing-purple?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet?logo=matplotlib)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellow?logo=scikit-learn)
