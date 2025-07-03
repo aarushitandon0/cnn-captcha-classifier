@@ -18,9 +18,8 @@ CAPTCHAs are used to distinguish humans from bots. This project solves **simple 
 - **Misclassification visualization**  
 - Predict on custom images
 
-## Tech Stack
 
-## 🧠 Tech Stack
+## Tech Stack
 
 | Category        | Tool / Library |
 |----------------|----------------|
@@ -30,4 +29,46 @@ CAPTCHAs are used to distinguish humans from bots. This project solves **simple 
 |  Math & Arrays | ![NumPy](https://img.shields.io/badge/NumPy-Scientific_Computing-purple?logo=numpy) |
 |  Plotting     | ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet?logo=matplotlib) |
 |  ML Tools     | ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellow?logo=scikit-learn) |
+
+
+##  How the Model Works
+### Dataset Generation
+Synthetic CAPTCHA characters (A–Z, 0–9) generated using the captcha library and saved in class-wise folders.
+
+### Preprocessing Pipeline
+
+Convert to grayscale
+
+Resize to (60x60)
+
+Normalize pixel values
+
+Add channel dimension (60,60,1)
+
+### CNN Architecture
+
+Multiple Conv2D layers with ReLU and BatchNormalization
+
+MaxPooling2D for spatial reduction
+
+Dropout for regularization
+
+Final Dense layer with softmax for classification (36 classes)
+
+### Training
+
+Optimizer: Adam
+
+Loss: Categorical Crossentropy
+
+EarlyStopping used to prevent overfitting
+
+Best Epoch performance: Epoch 9
+
+✔️ Train Accuracy: 84.89%  
+✔️ Train Loss:     0.4061  
+✔️ Val Accuracy:   94.58%  
+✔️ Val Loss:       0.1601  
+
+Achieved 94.58% test accuracy
 
