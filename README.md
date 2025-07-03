@@ -20,3 +20,14 @@ CAPTCHAs are used to distinguish humans from bots. This project solves **simple 
 
 ## Tech Stack
 
+## 🧠 Tech Stack
+
+| Category        | Tool / Library |
+|----------------|----------------|
+|  Language | ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python) |
+|  Frameworks   | ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange?logo=tensorflow)<br>![Keras](https://img.shields.io/badge/Keras-Deep_Learning-red?logo=keras) |
+|  Image Proc.  | ![OpenCV](https://img.shields.io/badge/OpenCV-Image_Processing-green?logo=opencv) |
+|  Math & Arrays | ![NumPy](https://img.shields.io/badge/NumPy-Scientific_Computing-purple?logo=numpy) |
+|  Plotting     | ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet?logo=matplotlib) |
+|  ML Tools     | ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellow?logo=scikit-learn) |
+
